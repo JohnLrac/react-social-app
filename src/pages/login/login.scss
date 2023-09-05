@@ -1,0 +1,101 @@
+.login {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );
+
+
+  .card {
+    width: 50%;
+    display: flex;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 10px 0.9px rgba(0,0,0,0.9);
+    -moz-box-shadow: 0px 0px 10px 0.9px rgba(0,0,0,0.9);
+    box-shadow: 0px 0px 10px 0.9px rgba(0,0,0,0.9);
+    min-height: 600px;
+    border-radius: 10px;
+    overflow: hidden;
+
+    .left {
+    flex: 1;
+    background: linear-gradient(rgba(29, 29, 29, 0.707), rgba(29, 29, 29, 0.707)), url('https://img.freepik.com/free-photo/business-concept-with-team-close-up_23-2149151159.jpg?w=996&t=st=1692686621~exp=1692687221~hmac=ffe831a2e7d8b06952b33079dc77858b08f91bf92bf2a6f636f1467de9e84140') center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 30px;
+    color: white;
+    font-size: 14px;
+
+    h1 {
+      color: white;
+      font-size: 70px;
+      line-height: 70px;
+    }
+
+    span {
+      font-size: 12px;
+    }
+
+    button {
+      width: 50%;
+      padding: 5px;
+      color: #555;
+      font-weight: bold;
+      cursor: pointer;
+      font-weight: bold;
+      border: none;
+      border-radius: 2px;
+    }
+
+    button:active {
+      background-color: #555;
+      color: white;
+    }
+
+    }
+
+    .right {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+
+    h3 {
+      font-size: 30px;
+      color: #555;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    input {
+      border: none;
+      padding: 20px 10px;
+      border-bottom: 1px solid lightgray;
+    }
+
+    button {
+      width: 50%;
+      border: none;
+      padding: 5px;
+      background-color: gray;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 2px;
+    }
+
+    button:active {
+      background-color: white;
+      color: #555;
+    }
+    }
+  }
+}
